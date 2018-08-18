@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-        <div class="container container-header">
+    <div class="container-fluid fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
             <a class="navbar-brand" id="name" href="./index.html">Tom Dennis</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,22 +28,21 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" id="about" href="./index.html">About
-                        </a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" id="portfolio" href="./portfolio.html">Portfolio
+                        <a class="nav-link" id="about" href="./index.html">About
                             <span class="sr-only">(current)</span>
                         </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="portfolio" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="contact" href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="container main-content container-portfolio">
         <h1>Portfolio</h1>
@@ -57,15 +56,15 @@
                         <div class="col-md-6 project">
                             <img src="assets/images/hangman.png" alt="Tom Dennis">
 
-                            <div class="banner">
-                                <a href="#">Hangman</a>
+                            <div class="banner position-relative">
+                                <a class="position-absolute" href="#">Hangman</a>
                             </div>
                         </div>
                         <div class="col-md-6 project">
                             <img src="assets/images/rpg.png" alt="Tom Dennis">
 
-                            <div class="banner">
-                                <a href="#">RPG Game</a>
+                            <div class="banner position-relative">
+                                <a class="position-absolute" href="#">RPG Game</a>
                             </div>
                         </div>
                     </div>
@@ -74,15 +73,15 @@
                         <div class="col-md-6 project">
                             <img src="assets/images/trivia.png" alt="Tom Dennis">
 
-                            <div class="banner">
-                                <a href="#">Trivia Game</a>
+                            <div class="banner position-relative">
+                                <a class="position-absolute" href="#">Trivia Game</a>
                             </div>
                         </div>
                         <div class="col-md-6 project">
                             <img src="assets/images/info.png" alt="Tom Dennis">
 
-                            <div class="banner">
-                                <a href="#">Rutgers Info Widget</a>
+                            <div class="banner position-relative">
+                                <a class="position-absolute" href="#">Rutgers Info Widget</a>
                             </div>
                         </div>
                     </div>
@@ -91,8 +90,8 @@
                         <div class="col-md-6 project">
                             <img src="assets/images/rps.png" alt="Tom Dennis">
 
-                            <div class="banner">
-                                <a href="#">Rock Paper Scissors</a>
+                            <div class="banner position-relative">
+                                <a class="position-absolute" href="#">Rock Paper Scissors</a>
                             </div>
                         </div>
                     </div>

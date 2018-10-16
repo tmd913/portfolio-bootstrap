@@ -47,11 +47,11 @@ body {
     color: #dddddd;
 }
 
-#about, #portfolio {
+#about, #portfolio, #resume {
     border-right: solid #dddddd 1px
 }
 
-#about, #portfolio, #contact {
+#about, #portfolio, #resume, #contact {
     padding: 0 8px;
     margin: 8px 0;
 }
@@ -164,7 +164,7 @@ img {
     margin-right: 10px;
 }
 
-#about:hover, #portfolio:hover, #contact:hover {
+#about:hover, #portfolio:hover, #resume:hover, #contact:hover {
     color: #363535!important;
 }
 
@@ -174,4 +174,17 @@ img {
 
 #contact:visited {
     color: rgba(0,0,0,.5);
+}
+
+#resume-img {
+    width: 900px;
+    height: 1200px;
+}
+
+#resume-hr {
+    margin-bottom: 0;
+}
+
+.container-resume {
+    padding-top: 0;
 }
